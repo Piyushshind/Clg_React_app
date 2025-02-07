@@ -1,0 +1,14 @@
+const saveVideoLocally = (videoBlob) => {
+        const url = URL.createObjectURL(videoBlob);
+
+        // Create a link to download the file
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = `temp_files/recorded_video_${Date.now()}.webm`; // Save in "temp_files"
+
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+
+        console.log("Video saved locally for testing!");
+    };
