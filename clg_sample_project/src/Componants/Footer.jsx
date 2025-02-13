@@ -1,15 +1,9 @@
 import React from 'react';
+import './Footer.css'; 
 
 const Footer = () => {
-  const footerStyle = {
-    padding: '10px 20px',
-    background: '#0574ab',
-    color: '#fff',
-    textAlign: 'center'
-  };
-
   return (
-    <footer style={footerStyle}>
+    <footer className="footer">
       <p>© 2025 Banking Loan Application. All rights reserved.</p>
     </footer>
   );

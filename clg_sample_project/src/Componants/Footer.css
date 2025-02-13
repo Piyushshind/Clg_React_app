@@ -1,0 +1,26 @@
+/* Footer.css */
+.footer {
+    padding: 10px 20px;
+    background: #0574ab;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 12px;
+      padding: 15px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      font-size: 10px;
+      padding: 20px 5px;
+    }
+  }
+  
